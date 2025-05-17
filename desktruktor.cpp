@@ -13,7 +13,12 @@ public:
     void isiData();
 };
 
-
+// Definisi Constructor
+Angka::Angka(int i) {
+    panjang = i;
+    arr = new int[i];
+    isiData();
+};
 
 
 
