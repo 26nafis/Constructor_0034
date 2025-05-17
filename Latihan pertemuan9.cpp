@@ -1,10 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-// class buku berisi seperti judul, penulis, dan status peminjaman (bool dipinjam). status ini bersifat privat dan tidak
-#include <iostream>
-#include <string>
-using namespace std;
 
 // Forward declaration
 class Petugas;
