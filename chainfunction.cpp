@@ -20,3 +20,9 @@ public:
     };
 };
 
+int main()
+{
+    Buku bukunya;
+    cout << bukunya.setJudul("Matematika").getJudul(); // Chain function calls
+    return 0;
+};
