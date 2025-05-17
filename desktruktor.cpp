@@ -35,6 +35,13 @@ void Angka::cetakData() {
     }
 };
 
-
+// Fungsi isiData
+void Angka::isiData() {
+    for (int i = 0; i < panjang; i++) { // Indeks array dimulai dari 0
+        cout << (i + 1) << " = ";
+        cin >> arr[i];
+    }
+    cout << endl;
+};
 
 
