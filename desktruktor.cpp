@@ -20,7 +20,13 @@ Angka::Angka(int i) {
     isiData();
 };
 
-
+// Definisi Destructor
+Angka::~Angka() {
+    cout << endl;
+    cetakData();
+    delete[] arr;
+    cout << "Alamat Array Sudah Dilepaskan" << endl;
+};
 
 
 
